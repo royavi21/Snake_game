@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls attached-top">
+        <div class="section" id="left-section">
+            <button id="restartButton">Restart</button>
+        </div>
+        <div class="section" id="middle-section">
+            <div class="speed-controls">
+                <span>Speed: </span>
+                <button id="decreaseSpeed">-</button>
+                <span id="speed">5</span>
+                <button id="increaseSpeed">+</button>
+            </div>
+        </div>
+        <div class="section" id="right-section">
+            <div class="scoreboard">
+                <span>Score: </span><span id="score">0</span>
+            </div>
+        </div>
+    </div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <footer class="attached-bottom">
+        Develop by <a href="https://facebook.com/heheboy00" target="_blank">Avijit Roy</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
